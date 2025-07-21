@@ -1,5 +1,5 @@
 ===Latin ke Aksara Batak  ===
-Contributors: Ritong Mulia
+Contributors: Ritonga Mulia
 Tags: latin ke aksara batak, transliterasi, bahasa daerah, pelestarian budaya
 Requires at least: 5.0
 Tested up to: 6.5
@@ -8,7 +8,7 @@ Stable tag: 1.0.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Plugin ini menambahkan transliterasi dari aksara Batak ke huruf Latin secara otomatis pada konten WordPress. Cocok untuk pelestarian budaya, pendidikan, dan aksesibilitas aksara daerah.
+Plugin ini menambahkan transliterasi dari huruf latin ke aksara Batak secara otomatis pada konten WordPress. Cocok untuk pelestarian budaya, pendidikan, dan aksesibilitas aksara daerah. Plugin ini dibuat berdasarkan kode dari Saudara [@Billylin](https://github.com/bennylin)
 
 == Description ==
 
