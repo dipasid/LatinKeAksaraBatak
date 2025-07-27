@@ -1,0 +1,101 @@
+/**
+ * Plugin Name: Latin To Batak
+ * Plugin URI: https://hurufbatak.id/
+ * Description: A plugin to transliterate Latin text into Batak script according to the selected dialect.
+ * Version: 1.0
+ * Author: Ritonga Mulia
+ * Author URI: https://dipasid.com/
+ * License: GPLv2 or later
+ * License URI: https://www.gnu.org/licenses/gpl-2.0.html
+ * Text Domain: batak-transliteration
+ */
+ 
+/* Container Utama */
+.translit-container {
+  width:100%;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Label dan Input */
+.translit-container label {
+  font-weight: 600;
+  display: block;
+  margin-bottom: 8px;
+  color: #444;
+}
+.translit-container input[type="text"],
+.translit-container textarea {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+.translit-container textarea.batak-output {
+  font-family: 'Noto Sans Batak', serif;
+  font-size: 28px;
+  line-height: 1.8;
+  text-align: center;
+  background-color: #fafafa;
+  color: #111;
+}
+
+/* Tombol */
+.translit-container .button-group {
+  display: flex;
+  gap: 10px;
+}
+.translit-container button {
+  padding: 10px 16px;
+  font-size: 16px;
+  border: none;
+  background-color: #c60d0d;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.translit-container button:hover {
+  background-color: #004177;
+}
+
+/* Pilihan Bahasa */
+.translit-container .language-options {
+  margin-top: 20px;
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+.translit-container .language-options label {
+  font-size: 14px;
+  color: #555;
+}
+
+.dialek-group {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+  font-size: 16px;
+}
+
+.dialek-group label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  padding: 8px 12px;
+  border-radius: 8px;
+  transition: background 0.2s ease;
+}
+
+.dialek-group input[type="radio"] {
+  accent-color: #004aad; /* warna indikator radio */
+}
+
+.dialek-group label:hover {
+  background:#c60d0d;
+}
