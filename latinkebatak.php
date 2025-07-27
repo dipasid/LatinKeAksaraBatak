@@ -42,12 +42,6 @@ function latin_batak_shortcode() {
   <textarea id="ta" class="batak-output " rows="4" style="width:100%;" readonly></textarea>
 </div>
 
-<style>
-
-
-</style>
-
-  
     <script src="<?php echo plugin_dir_url(__FILE__); ?>/assets/css/style.css"></script>
     <script src="<?php echo plugin_dir_url(__FILE__); ?>/assets/js/latin_ke_batak.js"></script>
     <?php
