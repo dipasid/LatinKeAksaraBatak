@@ -1,1 +1,26 @@
 
+<div id="transliterasi-container" class="translit-container">
+   <!-- Input Teks -->
+  <label for="inp_txt">Teks Latin:</label><br>
+  <textarea id="inp_txt" rows="4" style="width:100%;" placeholder="Ketik teks Latin di sini..."></textarea><br><br>
+
+  <!-- Pilihan Dialek -->
+  <fieldset>
+    <legend>Pilih Dialek:</legend>
+    <div class="dialek-group">
+  <label><input type="radio" name="bahasa" value="toba" checked> 🐃 Toba</label>
+  <label><input type="radio" name="bahasa" value="angkola-mandailing"> 🌄 Mandailing</label>
+  <label><input type="radio" name="bahasa" value="karo"> 🔥 Karo</label>
+  <label><input type="radio" name="bahasa" value="simalungun"> 🌿 Simalungun</label>
+  <label><input type="radio" name="bahasa" value="pakpak-dairi"> ⛰️ Pakpak</label>
+</div>
+  </fieldset><br>
+
+  <!-- Tombol Aksi -->
+  <button id="tb_convert">Ubah Latin Ke Batak</button>
+  <button id="tb_copy">Salin Hasil</button><br><br>
+
+  <!-- Output -->
+  <label for="ta">Hasil Ubah Latin Ke Aksara Batak:</label><br>
+  <textarea id="ta" class="batak-output " rows="4" style="width:100%;" readonly></textarea>
+</div>
