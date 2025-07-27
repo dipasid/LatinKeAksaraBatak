@@ -1,6 +1,6 @@
-===Latin ke Aksara Batak  ===
-Contributors: Ritonga Mulia
-Tags: latin ke aksara batak, transliterasi, bahasa daerah, pelestarian budaya
+=== Latin to Batak Script ===
+Contributors: ritongamulia
+Tags: latin to batak script, transliteration, local language, cultural preservation, batak, aksara batak
 Requires at least: 5.0
 Tested up to: 6.5
 Requires PHP: 7.4
@@ -8,75 +8,74 @@ Stable tag: 1.0.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Plugin ini menambahkan transliterasi dari huruf latin ke aksara Batak secara otomatis pada konten WordPress. Cocok untuk pelestarian budaya, pendidikan, dan aksesibilitas aksara daerah. Plugin ini dibuat berdasarkan kode dari Saudara [@Billylin](https://github.com/bennylin)
+This plugin automatically converts Latin text to Batak script using a simple shortcode. Ideal for cultural preservation, education, and language accessibility.
 
 == Description ==
 
-Plugin ** Latin ke Aksara Batak  ** ini memungkinkan konversi otomatis dari Latin ke huruf batak. Sangat berguna untuk situs edukasi atau kebudayaan agar pengunjung dapat merubah huruf latin ke aksara batak.
+**Latin to Batak Script** is a WordPress plugin that enables automatic transliteration from Latin (Roman) script to various Batak scripts (Toba, Mandailing, Tulak Tulak, Pakpak, Dairi, and Simalungun). It's a lightweight solution aimed at promoting the usage of Batak script in digital spaces, making it perfect for cultural and educational websites.
 
-Fitur:
-- Translasi otomatis Latin ke Aksara Batak, Toba, Mandailing, Aksara Tulak Tulak, Pakpak, Dairi dan Simalungun
-- Ringan dan tidak mengganggu performa
-- Disisipkan ke halaman Wordpress dengan menggunakan Shortcode [.....]
+The plugin is inspired by and based on open-source work by @billylin.
 
+== Features ==
+
+* Automatically transliterates Latin to Batak scripts (Toba, Mandailing, Tulak Tulak, Pakpak, Dairi, Simalungun)
+* Lightweight and optimized for performance
+* Easy to use via WordPress shortcode
+* Customizable output via CSS
 
 == Installation ==
 
-1. Upload folder `Latin ke Aksara Batak ` ke direktori `/wp-content/plugins/`
-2. Aktifkan plugin melalui menu ‘Plugins’ di WordPress
-3. Selesai! Aktifkan dengan menggunakan Shortcode ke halaman Post ataupun Page wordpress
+1. Upload the plugin folder `latin-to-batak-script` to the `/wp-content/plugins/` directory.
+2. Activate the plugin through the ‘Plugins’ menu in WordPress.
+3. Use the `[latin_batak]` shortcode in any post or page to enable Batak script conversion.
 
 == Frequently Asked Questions ==
 
-❓Apa itu Plugin Transliterasi Aksara Batak?
+= What is the Batak Script Transliteration Plugin? =
+This plugin enables WordPress users to automatically convert Latin text into Batak script. It helps preserve cultural heritage and regional languages in the digital space.
 
-Plugin ini memungkinkan pengguna WordPress untuk mengubah teks beraksara Latin menjadi Aksara Batak secara otomatis. Ini merupakan langkah kecil dalam pelestarian budaya dan bahasa daerah di era digital.
-❓Siapa yang sebaiknya menggunakan plugin ini?
+= Who should use this plugin? =
+- Anyone who wants to showcase Batak script on their site
+- Bloggers and writers covering Batak culture
+- Language and education websites
+- Batak community sites
 
-    Plugin ini cocok untuk ? Siapa pun yang ingin menyisipkan atau menampilkan Aksara Batak di situs mereka
-    Blogger atau penulis konten budaya
-    Website pendidikan bahasa daerah
-    Website komunitas Batak.
+= How do I use it? =
+Use the shortcode `[latin_batak]` in your content. The Latin characters inside the shortcode will be converted to Batak script.
 
-❓Bagaimana cara menggunakan plugin ini?
+= Does this affect SEO? =
+No. The output is regular text (not an image), so it remains crawlable by search engines.
 
-    Install dan aktifkan plugin seperti biasa melalui Dashboard WordPress.
-    Gunakan shortcode [horas]di dalam konten untuk mentransliterasi teks.
-  
-❓Apakah plugin ini memengaruhi SEO?
+= Is this compatible with Gutenberg and Elementor? =
+Yes. The shortcode works in Gutenberg (block editor) and Elementor (Text Editor widget).
 
-Tidak secara langsung. Namun, karena output tetap teks (bukan gambar), konten tetap bisa dibaca oleh search engine. Plugin ini juga tidak mengubah struktur HTML secara berlebihan.
-❓Apakah plugin ini kompatibel dengan Gutenberg dan Elementor?
+= Can I use this plugin on a WordPress Multisite? =
+Yes, it works on multisite installations and can be activated per site or network-wide.
 
-Ya. Kamu bisa menggunakan shortcode [horas] di Gutenberg (block editor) maupun Elementor (via Text Editor widget).
-❓Apakah plugin ini bisa digunakan di multisite WordPress?
+= Can I change the style of the Batak script output? =
+Yes. The output has the class `batak-text`. You can style it in your CSS, for example:
 
-Ya, plugin ini kompatibel dengan WordPress multisite, selama diaktifkan per situs atau secara jaringan.
-❓Apakah saya bisa mengubah gaya atau font aksara Batak?
+.batak-text {
+font-family: 'Noto Sans Batak', sans-serif;
+font-size: 1.2rem;
+}
 
-Ya. Plugin ini menambahkan class=”batak-text” ke output. Kamu bisa menyesuaikan tampilannya lewat CSS. Misalnya:
 
-    .batak-text {
-    font-family: ‘Noto Sans Batak’, sans-serif;
-    font-size: 1.2rem;
-    }
+= Is this plugin open source? =
+Yes. It is based on open work by @billylin and licensed under GPLv2 or later.
 
-❓Apakah plugin ini open source?
-
-Ya, plugin ini adalah open source dan dikembangkan dari karya terbuka milik @billylin di GitHub. Kamu bisa memodifikasi atau mengembangkan lebih lanjut sesuai lisensi.
-❓Di mana saya bisa melaporkan bug atau berkontribusi?
-
-Kamu bisa mengunjungi repositori GitHub (jika tersedia) atau mengirim pesan melalui halaman kontak di situs ini.
+= Where can I report bugs or contribute? =
+You can contribute via the GitHub repository (if available) or use the contact form on the plugin website.
 
 == Changelog ==
 
 = 1.0.0 =
-* Rilis pertama: mendukung transliterasi Batak ke Latin.
+* Initial release with support for Latin to Batak script transliteration.
 
 == Upgrade Notice ==
 
 = 1.0.0 =
-Rilis pertama, aman untuk semua versi WordPress 5.0 ke atas.
+First release. Safe to use with WordPress 5.0 and above.
 
 == License ==
 
