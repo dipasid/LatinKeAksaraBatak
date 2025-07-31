@@ -8,7 +8,7 @@ Stable tag: 1.0.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-This plugin automatically converts Latin text to Batak script using a simple shortcode. Ideal for cultural preservation, education, and language accessibility.
+Preview : [https://www.hurufbatak.id/](https://www.hurufbatak.id/latin-ke-aksara-batak) This plugin automatically converts Latin text to Batak script using a simple shortcode. Ideal for cultural preservation, education, and language accessibility.
 
 == Description ==
 
